@@ -1,0 +1,20 @@
+[project]
+name = "app-github-actions"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "souben3-stack", email = "souben3@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "pandas>=3.1.0",
+    "pytest>=9.1.1",
+]
+
+[project.scripts]
+app-github-actions = "app_github_actions:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"
