@@ -1,4 +1,4 @@
-from src.app_github_actions.math_operations import add, substract
+from src.app_github_actions.math_operations import add,substract
 
 def test_add():
     assert add(2,3) == 5
